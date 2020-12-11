@@ -4,10 +4,10 @@ rm -rf iexec_out
 mkdir -p iexec_in
 mkdir -p iexec_out
 
-#cd iexec_in/
-#wget https://raw.githubusercontent.com/iExecBlockchainComputing/apps/master/svm_bot/parameters.csv
-#cd ../
-cp parameters.csv iexec_in/.
+cd iexec_in/
+wget https://raw.githubusercontent.com/iExecBlockchainComputing/iexec-SupportVectorMachine-BagOfTasks/main/parameters.csv
+cd ../
+
 
 BOTSIZE=`wc -l < iexec_in/parameters.csv`
 

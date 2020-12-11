@@ -4,7 +4,10 @@ rm -rf iexec_out
 mkdir -p iexec_in
 mkdir -p iexec_out
 
-cp parameters.csv iexec_in/.
+cd iexec_in/
+wget https://raw.githubusercontent.com/iExecBlockchainComputing/iexec-SupportVectorMachine-BagOfTasks/main/parameters.csv
+cd ../
+
 #BOT test
 docker build -t test .
 

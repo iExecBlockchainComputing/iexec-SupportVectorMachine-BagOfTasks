@@ -1,0 +1,3 @@
+#!/bin/sh
+
+docker image build -f Dockerfile -t iexechub/svm_bot:1.0.1 .
